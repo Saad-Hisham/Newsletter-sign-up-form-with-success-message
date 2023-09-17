@@ -1,4 +1,4 @@
-// AOS.init();
+AOS.init();
 var emailInput = document.querySelector('input[name="email"]');
 
 document.getElementById('subscribe-btn').addEventListener('click', function(event) {
