@@ -116,6 +116,8 @@ input {
     font-weight: bold;
     border-radius: 7px;
     cursor: pointer;
+        transition-delay: 0s !important;
+
 }
 
 .mob-img {
