@@ -1,0 +1,224 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #36384d;
+
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+    box-shadow: 1px 18px 28px -14px rgba(44,45,65,0.62);
+-webkit-box-shadow: 1px 18px 28px -14px rgba(44,45,65,0.62);
+-moz-box-shadow: 1px 18px 28px -14px rgba(44,45,65,0.62);
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+
+}
+
+a {
+    font-weight: bold;
+    color: #e75061;
+}
+
+
+.parent-container {
+    min-width: 897px;
+    min-height: 589px;
+    background: white;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.parent-container h1 {
+    font-size: 55px;
+    color: #1d213c;
+    margin-top: 67px;
+}
+
+.content-container {
+    margin-left: 41px;
+}
+
+.content-container p {
+    margin-top: 27px;
+    max-width: 359px;
+    line-height: 22px;
+    color: #090a10;
+}
+
+ul {
+    list-style: none;
+    margin-top: 29px;
+}
+
+ul li span img {
+    width: 22px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    color: #2a293b;
+}
+
+ul li span:nth-of-type(2) {
+    margin-left: 18px;
+}
+
+.form-container {
+    margin-top: 45px;
+    position: relative;
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #252740;
+}
+
+input {
+    width: 347px;
+    height: 56px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #c5c5c5;
+    padding-left: 28px;
+    margin-top: 8px;
+}
+
+.parent-container button {
+    width: 23.5rem;
+    height: 56px;
+    margin-top: 1rem;
+    background: #232742;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mob-img {
+    display: none;
+}
+
+@media (max-width:963px) {
+    .parent-container {
+        min-width: 375px;
+        flex-direction: column-reverse;
+        padding: 0;
+        padding-bottom: 2rem;
+        border-radius: 0px;
+    }
+
+    .mob-img {
+        display: inline;
+    }
+
+    .desk-image {
+        display: none;
+    }
+
+    .content-container {
+        margin-left: 11px;
+    }
+
+    input {
+        width: 89%;
+    }
+
+    .parent-container button {
+        width: 98%;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}
+
+.parent-container button:hover {
+    background: rgb(255, 84, 118);
+    background: linear-gradient(83deg, rgba(255, 84, 118, 1) 16%, rgba(255, 103, 62, 1) 78%);
+    transition: all ease-in-out .5s;
+    box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
+    -webkit-box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
+    -moz-box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
+}
+.parent-container-success{
+    min-width: 506px;
+    background: white;
+    border-radius: 0.5rem;
+    min-height: 522px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-container-success h1 {
+    font-size: 3.5rem;
+    color: #242841;
+    max-width: 23rem;
+}
+.parent-container-success p {
+    width: 359px;
+    margin-top: 1rem;
+    line-height: 1.4rem;
+    color: #252942;
+}
+.parent-container-success button {
+    cursor: pointer;
+    min-width: 374px;
+    background: #232742;
+    color: white;
+    border: none;
+    min-height: 56px;
+    border-radius: 0.4rem;
+    margin-top: 2rem;
+}
+div.correct {
+    margin-bottom: 2rem;
+}
+.parent-container-success button:hover{
+    background: rgb(255, 84, 118);
+    background: linear-gradient(83deg, rgba(255, 84, 118, 1) 16%, rgba(255, 103, 62, 1) 78%);
+    transition: all ease-in-out .5s;
+    box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
+    -webkit-box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
+    -moz-box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
+}
+.parent-container-success{
+    display: none;
+}
+form.err input {
+    background: #ffe8e6;
+    color: #ffa9aa;
+    border-color: #d37470;
+}
+form.err::before {
+    content: "valid email required";
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: #d37470;
+}
