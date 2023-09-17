@@ -19,7 +19,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 97vh;
+    min-height: 100vh;
     box-shadow: 1px 18px 28px -14px rgba(44,45,65,0.62);
 -webkit-box-shadow: 1px 18px 28px -14px rgba(44,45,65,0.62);
 -moz-box-shadow: 1px 18px 28px -14px rgba(44,45,65,0.62);
