@@ -116,7 +116,6 @@ input {
     font-weight: bold;
     border-radius: 7px;
     cursor: pointer;
-        transition-delay: 0s !important;
 
 }
 
@@ -161,7 +160,6 @@ input {
 .parent-container button:hover {
     background: rgb(255, 84, 118);
     background: linear-gradient(83deg, rgba(255, 84, 118, 1) 16%, rgba(255, 103, 62, 1) 78%);
-    transition: all ease-in-out .5s;
     box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
     -webkit-box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
     -moz-box-shadow: 1px 18px 28px -14px rgba(255, 103, 62, 0.62);
