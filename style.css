@@ -193,6 +193,7 @@ input {
     min-height: 56px;
     border-radius: 0.4rem;
     margin-top: 2rem;
+    transition-delay: 0s !important;
 }
 div.correct {
     margin-bottom: 2rem;
