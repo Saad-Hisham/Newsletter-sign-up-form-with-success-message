@@ -223,3 +223,7 @@ form.err::before {
     width: 100%;
     color: #d37470;
 }
+span#em {
+    color: #232742;
+    font-weight: bold;
+}
