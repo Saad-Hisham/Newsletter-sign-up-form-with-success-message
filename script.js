@@ -1,6 +1,7 @@
 AOS.init();
 var emailInput = document.querySelector('input[name="email"]');
-
+var span = document.querySelector('#em')
+span.textContent = emailInput.value;
 document.getElementById('subscribe-btn').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent form submission
 
