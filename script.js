@@ -1,7 +1,7 @@
 AOS.init();
 var emailInput = document.querySelector('input[name="email"]');
 var span = document.querySelector('#em')
-span.textContent = emailInput.value;
+
 document.getElementById('subscribe-btn').addEventListener('click', function(event) {
     event.preventDefault(); // Prevent form submission
 
@@ -13,6 +13,7 @@ document.getElementById('subscribe-btn').addEventListener('click', function(even
 
     if (emailRegex.test(email)) {
       document.querySelector(".parent-container-success").style.display="flex"
+        span.textContent = emailInput.value;
       document.querySelector(".parent-container").style.display="none"
       // You can perform additional actions here, such as sending the form data to a server
     } else {
